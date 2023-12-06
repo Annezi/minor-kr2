@@ -1,0 +1,84 @@
+[
+    {
+      "id": "1",
+      "title": "Кимчи в мягкой упаковке",
+      "vendor_code": "111",
+      "description": "Выгодно и вкусно",
+      "price": 100,
+      "img": "img-kimchi/1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Кимчи \"Сделай сам\"",
+      "vendor_code": "222",
+      "description": "Специи и масло в комплекте",
+      "price": 200,
+      "img": "img-kimchi/2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Кимчи \"Премиум\"",
+      "vendor_code": "333",
+      "description": "Пряный вкус в большой упаковке",
+      "price": 300,
+      "img": "img-kimchi/3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Кимчи \"Мечта азиата\"",
+      "vendor_code": "444e",
+      "description": "Традиционный кимчи",
+      "price": 400,
+      "img": "img-kimchi/4.jpg"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Кимчи \"Столичный\"",
+      "vendor_code": "4445e",
+      "description": "Сделано в России",
+      "price": 400,
+      "img": "img-kimchi/5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Кимчи в банке small",
+      "vendor_code": "4446e",
+      "description": "Небольшая баночка для перекуса",
+      "price": 400,
+      "img": "img-kimchi/6.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Кимчи в банке medium",
+      "vendor_code": "4448e",
+      "description": "Кимчи в банке 400г",
+      "price": 800,
+      "img": "img-kimchi/7.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Кимчи в банке big",
+      "vendor_code": "444e",
+      "description": "Кимчи в банке 700г",
+      "price": 400,
+      "img": "img-kimchi/8.jpg"
+    }
+    ,
+    {
+      "id": "9",
+      "title": "Кимчи \"Gold cabbage\"",
+      "vendor_code": "44410e",
+      "description": "Сделано из райской капусты",
+      "price": 900,
+      "img": "img-kimchi/9.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Кимчи \"Концентрат счастья\"",
+      "vendor_code": "44411e",
+      "description": "Идеально для подарка самому близкому человеку!",
+      "price": 1100,
+      "img": "img-kimchi/10.jpg"
+    }
+  ]

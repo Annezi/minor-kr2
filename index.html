@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="navbar.css">
+	<title>Рецепты корейской кухни</title>
+</head>
+
+<body>
+	<div class="header">
+		<div><a href="https://eda.ru/recepty/koreyskaya-kuhnya" target="_blank"><img src="img/flag.jpg"
+					height="30px"></a></div>
+		<div id="navbar">
+			<nav class="navbar-container container">
+				<a href="https://eda.ru/recepty/koreyskaya-kuhnya" class="home-link">
+					<div class="navbar-logo"></div>
+					Рецепты корейской кухни
+				</a>
+				<button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
+					aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="navbar-menu" aria-labelledby="navbar-toggle">
+					<ul class="navbar-links">
+						<li class="navbar-item"><a class="navbar-link" href="kimchi.html">Кимчи</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="kimpab.html">Кимпаб</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="pibimpap.html">Пибимпап</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="shop.html">Магазин</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="fon-img">
+		<div class="image"><img class="fon-image" src="img/fon2.jpg" height="400px"></div>
+		<div class="image"><img class="fon-image" src="img/fon.jpeg" height="400px"></div>
+	</div>
+
+
+	<div class="wrapper-form">
+		<div class="first_form">
+			<form id="firstForm">
+				<fieldset class="second_form-inside">
+					<legend>Введите ваши данные:</legend>
+					<label> Ваше имя: <input type="text" id="name" placeholder="Имя"></input></label> <br>
+					<label> Ваш email: <input type="text" id="email" placeholder="Email"></input></label> <br>
+					<label> Ваш год рождения: <input type="number" id="age" placeholder="Год рождения"></input></label>
+					<br>
+					<label> Вы:
+						<input type="radio" id="visitor" name="person_type" value="1" checked /> <label
+							for="visitor">Пользователь</label>
+						<input type="radio" id="autor" name="person_type" value="2" /> <label for="autor">Автор</label>
+					</label>
+					<br>
+					<label><button type="submit">Отправить</button></label>
+				</fieldset>
+			</form>
+		</div>
+
+		<div class="second_form">
+			<form id="secondForm">
+				<fieldset class="second_form-inside">
+					<legend>Ваши предложения по рецептам:</legend>
+					<label> Предложение по рецептам: <input type="text" id="offer" placeholder="Имя"></input></label>
+					<br>
+					<label> Сложный рецепт: <input type="checkbox" id=""></label> <br>
+					<label> Ингредиенты: <input type="text" id="ingridients" placeholder="Ингредиенты"></input></label>
+					<br>
+					<label> Шаги приготовления: <input type="text" id="steps"
+							placeholder="1. Шаг первый..."></input></label> <br>
+					<label><button type="submit">Отправить</button></label>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
+	<!-- 
+		1. Фрагмент с работающе формой для отправки информации на удаленный сервер контактных данных посетителя (фамилия, имя, мобильный телефон, электронка, дата отправки сообщения);
+		2. Фрагмент с работающе формой для отправки на удаленный сервер оригинальных данных (заказы из магазина, отзывы на что-либо, или другое относящееся к тематике сайта, названия переменных (атрибут - name) должны соответствовать решаемой задаче, форма должна обязательно содержить следующие типы: text, number, radio, checkbox, date, password, hiddden и возможность отправлять на удаленный сервер значения по-умолчанию; -->
+	<script src="script.js"></script>
+	<script src="shopScript.js"></script>
+	<script src="navbar.js"></script>
+</body>
+
+</html>

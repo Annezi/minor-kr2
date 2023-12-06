@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="navbar.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="header">
+		<div><a href="https://eda.ru/recepty/koreyskaya-kuhnya" target="_blank"><img src="img/flag.jpg"
+					height="30px"></a></div>
+		<div id="navbar">
+			<nav class="navbar-container container">
+				<a href="https://eda.ru/recepty/koreyskaya-kuhnya" class="home-link">
+					<div class="navbar-logo"></div>
+					Рецепты корейской кухни
+				</a>
+				<button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
+					aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="navbar-menu" aria-labelledby="navbar-toggle">
+					<ul class="navbar-links">
+						<li class="navbar-item"><a class="navbar-link" href="kimchi.html">Кимчи</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="kimpab.html">Кимпаб</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="pibimpap.html">Пибимпап</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="shop.html">Магазин</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div><a href="index.html" class="text-h2">На главную</a></div>
+
+	<div class="container">
+		<!--начало уникального содержания страницы-->
+		<div class="card-body">
+			<h5 class='card-title text-center'>Магазин</h5>
+			<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+				<input name="q" type="hidden" value="search">
+				<ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
+					<!--начало генерируемого фрагмента кода -->
+				</ul>
+				<input class="btn btn-dark cart-button" type="Submit" value="В корзину">
+			</form>
+		</div>
+		<!--окончание уникального содержания страницы-->
+
+		<script src="script.js"></script>
+		<script src="shopScript.js"></script>
+		<script src="navbar.js"></script>
+	</div>
+</body>
+
+</html>
