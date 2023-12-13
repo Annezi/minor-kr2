@@ -19,6 +19,10 @@ a:hover {
 	color: #e15c84;
 }
 
+a.name-color {
+	color: #e15c84;
+}
+
 .focused {
 	text-decoration:dotted;
 }
